@@ -1,0 +1,539 @@
+﻿body {
+  padding: 0;
+  margin: 0;
+  min-width: 320px;
+}
+
+@font-face {
+  font-family: "Calibri";
+  src: url("../Fonts/calibri.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MarkerFelt";
+  src: url("../Fonts/MarkerFelt.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DINCondensed";
+  src: url("../Fonts/DINCondensed.otf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SignPainter";
+  src: url("../Fonts/SignPainter.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PTMono";
+  src: url("../Fonts/PT Mono.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Copperplate";
+  src: url("../Fonts/copperplate.otf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("../Fonts/Open Sans.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../Fonts/RobotoRegular.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GillSans";
+  src: url("../Fonts/Gill Sans.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MyriadPro";
+  src: url("../Fonts/Myriad Pro.otf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lobster";
+  src: url("../Fonts/Lobster 1.4.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PTSans";
+  src: url("../Fonts/PT Sans.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Arial";
+  src: url("../Fonts/Arial.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PTSerif";
+  src: url("../Fonts/PT Serif.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../Fonts/Ubuntu.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../Fonts/Rubik.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Play";
+  src: url("../Fonts/Play.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Philosopher";
+  src: url("https://hipolink.me/Client/Fonts/Philosopher.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url("../Fonts/Oswald.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PoiretOne";
+  src: url("../Fonts/PoiretOne.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Alice";
+  src: url("../Fonts/Alice.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AmaticSC";
+  src: url("../Fonts/AmaticSC.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Caveat";
+  src: url("../Fonts/Caveat.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Comfortaa";
+  src: url("../Fonts/Comfortaa.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Merriweather";
+  src: url("../Fonts/Merriweather.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../Fonts/Montserrat.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Pangolin";
+  src: url("../Fonts/Pangolin.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "RussoOne";
+  src: url("../Fonts/RussoOne.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  src: url("../Fonts/FuturaPTLight.otf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  src: url("../Fonts/FuturaPTLightOblique.otf");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  src: url("../Fonts/FuturaPTBook.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  src: url("../Fonts/FuturaPTBookOblique.otf");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  src: url("../Fonts/FuturaPTMedium.otf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  src: url("../Fonts/FuturaPTMediumOblique.otf");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  src: url("../Fonts/FuturaPTDemi.otf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  src: url("../Fonts/FuturaPTDemiOblique.otf");
+  font-weight: 600;
+  font-style: italic;
+}
+
+.all_screen {
+  min-height: 100%;
+  position: relative;
+}
+
+.blur {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.blur_inner {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  filter: blur(8px);
+}
+
+.blur_cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.2;
+}
+
+.phone_screen_1 {
+  max-width: 805px;
+  margin: auto;
+}
+
+.phone_screen_2 {
+  width: 100%;
+  background: #f4f5f7;
+  padding: 30px 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+  min-height: 100%;
+}
+
+.iphone_buttons_1 {
+  z-index: 0;
+  height: 66px;
+  width: 20px;
+  border-radius: 3px 0 0 3px;
+  background: linear-gradient(90deg, #cbd6e2, #fff);
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 180px;
+  left: 50%;
+  margin-left: -215px;
+}
+
+.iphone_buttons_2 {
+  z-index: 0;
+  height: 66px;
+  width: 20px;
+  border-radius: 3px 0 0 3px;
+  background: linear-gradient(90deg, #cbd6e2, #fff);
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 252px;
+  left: 50%;
+  margin-left: -215px;
+}
+
+.iphone_buttons_3 {
+  z-index: 0;
+  height: 112px;
+  width: 8px;
+  border-radius: 0 2px 2px 0;
+  background: linear-gradient(90deg, #cbd6e2, #fff);
+  border: 1px solid #f5f5f5;
+  position: absolute;
+  top: 190px;
+  left: 50%;
+  margin-left: 207px;
+}
+
+.iphone_buttons_4 {
+  z-index: 0;
+  height: 40px;
+  width: 20px;
+  border-radius: 3px 0 0 3px;
+  background: linear-gradient(90deg, #cbd6e2, #fff);
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 115px;
+  left: 50%;
+  margin-left: -214px;
+}
+
+.hipolink {
+  font-size: 22px;
+  font-family: FuturaPT;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  font-weight: 100;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.hipolink:hover,
+.hipolink:active,
+.hipolink:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.hipolink img {
+  margin-left: 6px;
+  margin-top: 2px;
+  height: 21px;
+}
+
+.link_block {
+  height: 60px;
+  width: 100%;
+}
+
+.link {
+  height: 39px;
+  width: 235px;
+  margin: 40px auto;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+}
+
+.phone_bg {
+  display: none;
+}
+
+@media screen and (max-width: 736px) {
+  .iphone_allContent {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .main_block_padding {
+    padding: 0 !important;
+  }
+
+  body {
+    overflow: auto;
+  }
+
+  body::-webkit-scrollbar {
+    width: 0;
+  }
+
+  body {
+    -ms-overflow-style: none;
+  }
+
+  body {
+    overflow: -moz-scrollbars-none;
+  }
+
+  .phone_screen_1 {
+    width: 100%;
+    padding: 0px;
+    background: none;
+    min-height: 100vh;
+    border-radius: 0;
+    top: 0;
+    left: 0;
+  }
+
+  .phone_bg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+  }
+
+  .link_block {
+    bottom: 0px;
+  }
+}
+
+.blur_background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  filter: blur(5px);
+  z-index: 2;
+}
+
+.iphone_bg {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.iphone_allContent {
+  width: 100%;
+  position: relative;
+  height: auto;
+}
+
+/*---------------------------------------------------------------*/
+
+@font-face {
+  font-family: "TT Firs Neue";
+  src: url("../Fonts/TTFirsNeue-Thin.ttf");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Firs Neue";
+  src: url("../Fonts/TTFirsNeue-ThinItalic.ttf");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TT Firs Neue";
+  src: url("../Fonts/TTFirsNeue-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Firs Neue";
+  src: url("../Fonts/TTFirsNeue-LightItalic.ttf");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TT Firs Neue";
+  src: url("../Fonts/TTFirsNeue-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Firs Neue";
+  src: url("../Fonts/TTFirsNeue-Italic.ttf");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TT Firs Neue";
+  src: url("../Fonts/TTFirsNeue-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Firs Neue";
+  src: url("../Fonts/TTFirsNeue-MediumItalic.ttf");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TT Firs Neue";
+  src: url("../Fonts/TTFirsNeue-DemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}

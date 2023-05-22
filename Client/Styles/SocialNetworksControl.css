@@ -1,0 +1,137 @@
+.SocialNetworksControlDisplay__rowContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.SocialNetworksControlDisplay__mainContainer {
+  justify-content: center;
+  align-items: center;
+}
+
+.SocialNetworksControlDisplay__container {
+  min-height: 62px;
+  padding: 0 5px;
+  font-family: OpenSans;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  width: 100%;
+}
+
+.SocialNetworksControlDisplay__iconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 62px;
+  width: 50px;
+  min-width: 50px;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.SocialNetworksControlDisplay__icon {
+  display: flex;
+  width: 100%;
+  max-height: 30px;
+}
+
+.SocialNetworksControlDisplay__textContainer {
+  align-items: center;
+  justify-content: center;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  overflow: hidden;
+  padding: 15px 10px;
+  padding-left: 5px;
+  min-width: calc(100% - 100px);
+}
+
+.SocialNetworksControlDisplay__halfButtonTextContainer {
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 15px 10px;
+  padding-left: 5px;
+  min-width: calc(100% - 70px);
+  max-width: calc(100% - 50px);
+  text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 625px) {
+  .SocialNetworksControlDisplay__halfButtonTextContainer {
+    display: none !important;
+  }
+}
+
+.odnoklassniki {
+  background: #ff8d32;
+}
+
+.youtube {
+  background: red;
+}
+
+.instagram {
+  background: #ce2d93;
+}
+
+.twitter {
+  background: #1da1f2;
+}
+
+.snapchat {
+  background: #fffc00;
+  color: #222 !important;
+}
+
+.behance {
+  background: #1769ff;
+}
+
+.dribbble {
+  background: #ea4c89;
+}
+
+.artstation {
+  background: #13aff0;
+}
+
+.pinterest {
+  background: #bd081c;
+}
+
+.tumblr {
+  background: #35465c;
+}
+
+.twitch {
+  background: #6441a5;
+}
+
+.tiktok {
+  background: #010101;
+}
+
+.patreon {
+  background: #012847;
+}
+
+.linkedin {
+  background: #0077b5;
+}
+
+.github {
+  background: #333333;
+}
+
+.reddit {
+  background: #ff4301;
+}

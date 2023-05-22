@@ -1,0 +1,21 @@
+.screen_video {
+  margin: 10px 4% 10px 4%;
+  width: 92%;
+  position: relative;
+  max-height: 450px;
+  height: calc(100vw * 0.6);
+}
+
+.on_video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  height: 200px;
+  z-index: 2;
+}
+
+.screen_video_iframe {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,37 @@
+body {
+
+}
+
+.screen_avatar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.screen_avatar_img {
+	background-size: cover;
+	height: 100px;
+	width: 100px;
+	border-radius: 63px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.screen_avatar_text {
+    text-align: center;
+    font-family: OpenSans;
+    font-size: 18.62px;
+    padding: 15px 4% 0 4%;
+}
+
+.screen_avatar_text > p{
+    margin:0;
+}
+
+.for_avatar_border {
+	height: 106px;
+	width: 106px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 70px;
+	padding:3px;
+}

@@ -1,0 +1,63 @@
+.screen_messengers > a {
+  height: 100%;
+}
+
+.whats_app {
+  background: #25d366;
+}
+
+.viber {
+  background: #8f5db7;
+}
+
+.vk {
+  background: #5783b6;
+}
+
+.telegram {
+  background: #0487d9;
+}
+
+.facebook {
+  background: #3b5998;
+}
+
+.fb_messenger {
+  background: #2196f3;
+}
+
+.skype {
+  background: #03a9f4;
+}
+
+.line {
+  background: #00c300;
+}
+
+.wechat {
+  background: #7bb32e;
+}
+
+.discord {
+  background: #7289da;
+}
+
+.icq {
+  background: #81c003;
+}
+
+.qq {
+  background: #12b7f5;
+}
+
+.kik {
+  background: #5ac710;
+}
+
+.google-hangouts {
+  background: #1f8456;
+}
+
+.slack {
+  background: #609;
+}

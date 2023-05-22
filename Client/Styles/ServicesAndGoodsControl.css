@@ -1,0 +1,206 @@
+.ServicesAndGoodsConstructor__cardContainer {
+  border-radius: 4px;
+  width: 92%;
+  background: #ffffff;
+  position: relative;
+  cursor: pointer;
+  margin: 10px 4%;
+  overflow: hidden;
+  box-shadow: 0px 0px 9px 2px rgba(17, 17, 17, 0.18);
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.ServicesAndGoodsConstructor__imageAreaContainer {
+  width: 100%;
+  max-height: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: inherit;
+}
+
+.ServicesAndGoodsConstructor__photoBlur {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.ServicesAndGoodsConstructor__blurInner {
+  position: absolute;
+  width: 120%;
+  min-height: 120%;
+  top: -10%;
+  left: -10%;
+  filter: blur(7px);
+}
+
+.ServicesAndGoodsConstructor__blurCover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.1;
+}
+
+.ServicesAndGoodsConstructor__cardImageContainer {
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.ServicesAndGoodsConstructor__cardImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.ServicesAndGoodsConstructor__cardServiceOrGoodName {
+  font-family: OpenSans;
+  font-size: 18.62px;
+  color: #222;
+  font-weight: 500;
+  white-space: pre-wrap;
+  padding: 10px 15px;
+  word-break: break-word;
+  text-align: left;
+}
+
+.ServicesAndGoodsConstructor__cardServiceOrGoodDescription {
+  font-family: OpenSans;
+  font-size: 15.92px;
+  color: #666;
+  white-space: pre-wrap;
+  text-align: left;
+  margin: 0;
+  padding: 0 15px 10px 15px;
+  word-break: break-word;
+}
+
+.ServicesAndGoodsConstructor__cardServiceOrGoodPrice {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px 10px;
+  border: 2px solid #ff5d60;
+  border-radius: 5px;
+  width: fit-content;
+  border-style: dashed;
+  font-family: FuturaPT;
+  font-size: 15.62px;
+  color: #222;
+  margin-left: 10px;
+}
+
+.ServicesAndGoodsConstructor__cardServiceOrGoodPayButton {
+  display: flex;
+  margin: 15px 10px;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-family: OpenSans;
+  font-size: 15.62px;
+  color: #fff;
+  background: #444;
+  text-decoration: none;
+  position: relative;
+}
+
+.ServicesAndGoodsConstructor__cardServiceOrGoodPayButton:hover,
+.ServicesAndGoodsConstructor__cardServiceOrGoodPayButton:active,
+.ServicesAndGoodsConstructor__cardServiceOrGoodPayButton:focus {
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+.ServicesAndGoodsConstructor__applicationFormBackground {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  border-radius: 0px;
+}
+
+.ServicesAndGoodsConstructor__applicationFormContainer {
+  display: block;
+  position: fixed;
+  top: 160px;
+  left: calc(50% - 395px);
+  width: 100%;
+  max-width: 790px;
+  min-width: 320px;
+  background: white;
+  z-index: 4;
+  border-top: 0.5px solid #ccc;
+  border-bottom: 0.5px solid #ccc;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 810px) {
+  .ServicesAndGoodsConstructor__applicationFormContainer {
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    min-width: 320px;
+    background: white;
+    z-index: 4;
+    border-top: 0.5px solid #ccc;
+    border-bottom: 0.5px solid #ccc;
+  }
+}
+
+.ServicesAndGoodsConstructor__applicationFormInner {
+  width: calc(100% - 50px);
+  margin: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  position: relative;
+}
+
+.ServicesAndGoodsConstructor__applicationFieldContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.ServicesAndGoodsConstructor__closeContainer {
+  position: absolute;
+  right: 0;
+  top: 15px;
+  cursor: pointer;
+}
+
+.ServicesAndGoodsConstructor__cardServiceOrGoodPayButtonApplicationForm {
+  margin: 15px 0 !important;
+  position: relative;
+}
+
+@media screen and (max-width: 545px) {
+  .ServicesAndGoodsConstructor__imageAreaContainer {
+    display: block;
+  }
+
+  .ServicesAndGoodsConstructor__cardImageContainer {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    width: auto;
+    height: auto;
+  }
+}
